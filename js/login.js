@@ -9,9 +9,9 @@ const passwordField =document.getElementById('user-password');
 const password =passwordField.value;
 // step4
 if (email ==='sontan@baap.com' && password === 'secret'){
-    console.log('invaild user')
+    window.location.href ='bank.html';
 }
 else{
-    console.log('invalid user')
+    alert('Tui password vule gesos !! toke ami teijjo sontan gosona krlam');
 }
  })
